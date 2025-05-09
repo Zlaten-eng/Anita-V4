@@ -22,7 +22,7 @@ global.autoLikeEmoji = process.env.AUTO_LIKE_EMOJI || "💚";
 global.LEVELUP = toBool(process.env.LEVELUP);
 global.ANTIVIEWONCE = toBool(process.env.ANTIVIEWONCE);
 
-global.public = process.env.PUBLIC === 'false';
+global.public = process.env.PUBLIC === 'true';
 // Group & Security Settings
 
 global.ANTIDELETE = toBool(process.env.ANTIDELETE);
